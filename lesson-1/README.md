@@ -8,7 +8,7 @@ In the terminal run:
 mkdir \<my-python-project\>
 cd \<my-python-project\>
 python3 -m venv .
-source /bin/activate
+source bin/activate
 ```
 *To quit type: `deactivate`*
 
