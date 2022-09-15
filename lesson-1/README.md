@@ -1,6 +1,6 @@
 ### Lesson-1
 
-## Python Virtual Environments 
+# Python Virtual Environments 
 
 **Starting a virtual enviroment**
 In the terminal run: 
@@ -25,7 +25,7 @@ Your main python package directory does not get FLOODED with unnecessary python 
 
 Ref: https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0
 
-## Testing
+# Testing
 
 1. Inside the virtual environment run `pip install pytest`, to intall the testing library. 
 2. Verify the proper installation with `pytest --version`
