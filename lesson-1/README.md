@@ -1,6 +1,6 @@
-## GIT
+### LESSON-1
 
-## PYTHON
+## PYTHON VIRTUAL ENVRIONMENTS
 
 **Starting a virtual enviroment**
 In the terminal run: 
@@ -12,11 +12,14 @@ source /bin/activate
 ```
 *To quit type: `deactivate`*
 
-**Context**
+**What is it?**
 
-Virtual environments aid these problems by creating special isolated environments where all the packages and versions you install only apply to that specific environment. It’s like a private island! — but for code.
+**Why bother?**
 
-You can use any version of python you want for a specific environment without having to worry about collisions (shoutout to my python 2.7 mac users!)
+Virtual environments stop problems by creating special isolated environments where all the packages and versions you install only apply to that specific environment. It’s like a private island! — but for code.
+
+You can use any version of python you want for a specific environment without having to worry about collisions.
+
 You can organize your packages much better and know exactly the packages you need to run your code incase someone else needs to run it on their machine
 Your main python package directory does not get FLOODED with unnecessary python packages
 
@@ -31,4 +34,3 @@ Ref: https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for
 5. Create a `test_add()` function that uses `assert` to check if your function is running.
 6. Type `pytest` into the terminal to run the test.
 
-## DJANGO
