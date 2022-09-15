@@ -1,6 +1,7 @@
-### Lesson-0
+## Lesson-0
 
-# Git
+### Git
+
 
 **What is it?**
 
@@ -12,6 +13,6 @@
 
 **Why bother?**
 
-# Combining
+### Combining
 
 **Red, Green, Refactor Cycle**
