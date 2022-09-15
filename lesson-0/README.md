@@ -1,12 +1,17 @@
-### LESSON-0
+### Lesson-0
 
-## GIT
+## Git
+
 **What is it?**
+
 **Why bother?**
 
-## TESTING
+## Testing
+
 **What is it?**
+
 **Why bother?**
 
-## COMBINING
+## Combining
+
 **Red, Green, Refactor Cycle**
