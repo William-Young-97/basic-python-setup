@@ -2,7 +2,7 @@
 
 ### Python Virtual Environments 
 
-**Starting a virtual enviroment**
+**Starting a virtual environment**
 
 In the terminal run: 
 ```
@@ -21,13 +21,13 @@ source bin/activate
 
 You can use any version of python you want for a specific environment without having to worry about collisions.
 
-You can organize your packages much better and know exactly the packages you need to run your code incase someone else needs to run it on their machine. Additionally, your main python package directory won't get FLOODED with unnecessary python packages."
+You can organize your packages much better and know exactly the packages you need to run your code in case someone else needs to run it on their machine. Additionally, your main python package directory won't get FLOODED with unnecessary python packages."
 
 Ref: https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0
 
 ### Testing
 
-1. Inside the virtual environment run `pip install pytest`, to intall the testing library. 
+1. Inside the virtual environment run `pip install pytest`, to install the testing library. 
 2. Verify the proper installation with `pytest --version`
 3. Create a file named maths.py and make a basics class with a `add(a, b)` method that sums two numbers.
 4. In the same directory create a file called test_maths.py and import your `maths` file and `Basics` class.
