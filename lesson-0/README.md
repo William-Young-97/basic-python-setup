@@ -64,3 +64,5 @@ Red: Refers to writing a test for the function we want to create. We create some
 Green: Refers to writing the function that will allow this test to pass. In this case we would create a simple `add(a, b):` function with a body of `return a + b`. Now when we run our test we should see it pass in a lovely shade of green.
 
 Refactor: It's great that our test is passing but is there anything we can do to make our function better? The `add(a, b)` function is fairly simplistic, so in this case, there's nothing refactor. It's always worth looking for places to refactor after writing your test and function.
+
+Following this cycle we can slowly and simply build out our code, mitigating a lot of the confusion that arises from complex systems. It is important that we try and keep our commits small and frequent for the best results.
