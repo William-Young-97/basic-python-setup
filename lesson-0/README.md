@@ -22,14 +22,26 @@ To use `git push` create an account on GitHub and generate an ssh keypair:
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 to allow you to securely push your work.
- 
+
 ### Testing
 
 **What is it?**
 
+Testing is the practice of ensuring your code works even if changes are made to it. Specifically, unit tests are written to test input vs output. Many languages have many different testing frameworks. For python we will be using pytest. 
+
 **Why bother?**
 
+The benefits of testing are numerous:
+
+- Allows us to refactor and change code whilst ensuring functionality is kept the same.
+- Verification that each component of your code works in different situations.
+- Helps to guard against programmatic errors.
+- Provides a form of documentation for your code base.
+- Creates a scalable framework for a your codebase grows and new contributers join.
+
 **How can we use it?**
+
+More on this in lesson-1.
 
 ### Red, Green, Refactor Cycle
 
