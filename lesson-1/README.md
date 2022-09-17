@@ -15,13 +15,11 @@ source bin/activate
 
 **What is it?**
 
+"Virtual environments stop problems by creating special isolated environments where all the packages and versions you install only apply to that specific environment. It’s like a private island! — but for code."
+
 **Why bother?**
 
-"Virtual environments stop problems by creating special isolated environments where all the packages and versions you install only apply to that specific environment. It’s like a private island! — but for code.
-
-You can use any version of python you want for a specific environment without having to worry about collisions.
-
-You can organize your packages much better and know exactly the packages you need to run your code in case someone else needs to run it on their machine. Additionally, your main python package directory won't get FLOODED with unnecessary python packages."
+"You can organize your packages much better and know exactly the packages you need to run your code in case someone else needs to run it on their machine. Additionally, your main python package directory won't get FLOODED with unnecessary python packages."
 
 Ref: https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0
 
