@@ -51,7 +51,7 @@ The Red, Green, Refactor cycle refers to a workflow for using testing and git. I
 
 **Why bother?**
 
-In tech proper workflows and best practices are exteremly important. Systems can very quickly become complex, so it is important that we build them up with simple iterations, in order to minimise errors. Red, Green, Refactor cycles enable this through testing and git. Another benefit is that theuy shorten feedback loops, meaning we can quickly respond to demands and make proper changes in our code.
+In tech, proper workflows and best practices are extremly important. Systems can very quickly become complex, so it is important that we build them up with simple iterations, in order to minimise errors. Red, Green, Refactor cycles enable this through testing and git. Another benefit is that they shorten feedback loops, meaning we can quickly respond to demands and make proper changes in our code.
 
 **How can we use it?**
 
@@ -59,10 +59,10 @@ Firstly: We use `git init` to create a git repository and then `git commit` for 
 
 Then: 
 
-Red: Refers to writing a test for the function we want to create. We create some inputa for this test and assert that we expect a certain output. For example, `assert add(1, 1) == 2`. As we haven't yet created this function the code we can expect this to fail and see red text when running pytest.
+Red: Refers to writing a test for the function we want to create. We create some inputs for this test and assert that we expect a certain output. For example, `assert add(1, 1) == 2`. As we haven't yet created this function in the code, we can expect this to fail and see red text appear when running pytest.
 
-Green: Refers to writing the function that will allow this test to pass. In this case we would create a simple `add(a, b):` function with a body of `return a + b`. Now when we run our test we should see it pass in a lovely shade of green.
+Green: Refers to writing the function that will allow this test to pass. In this case, we would create a simple `add(a, b):` function with a body of `return a + b`. Now when we run our test we should see it pass in a lovely shade of green.
 
-Refactor: It's great that our test is passing but is there anything we can do to make our function better? The `add(a, b)` function is fairly simplistic, so in this case, there's nothing refactor. It's always worth looking for places to refactor after writing your test and function.
+Refactor: It's great that our test is passing, but is there anything we can do to make our function better? The `add(a, b)` function is fairly simplistic, so in this case, there's nothing refactor. It's always worth looking for places to refactor after writing your test and function.
 
-Following this cycle we can slowly and simply build out our code, mitigating a lot of the confusion that arises from complex systems. It is important that we try and keep our commits small and frequent for the best results.
+Following this cycle we can slowly and simply build out our code, mitigating a lot of the confusion that arises from complex systems. It is important that we try to keep our commits small and frequent for the best results.
